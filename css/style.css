@@ -70,13 +70,14 @@ ul li:hover a {
 /* This is where my header ends */
 
 
-/* This is where my hero starts */
+/* This is where my content starts */
 .localnav_ng {
 	background-color: white;
 	opacity: .8;
 }
 section{
 	margin-top:0px;
+	margin-bottom: 0px;
 	background-color: #FFFFFF;
 	width: 100%;
 	color: #0000000;	
@@ -97,20 +98,39 @@ section{
 	display: inline-block;
 	float: right;
 }
-
+.cs_projectoverview {
+	height: 400px;
+	background-color: darkkhaki;
+	padding-bottom: 100px;
+}
+/*
 .overview_title {
 	margin-left: 70px;
 	margin-top: 100px;
 }
-
+*/
 .overview_text {
 	margin-left: 70px;
 }
 
+.overview_text_ng {
+	height: 400px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	flex-direction: column;
+}
+
 .overview_description_ng {
-	margin-top: 100px;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	flex-direction: column;
+}
+
+.description_list_ng {
 	list-style: none;
-	text-align: center;
 }
 
 section button{
