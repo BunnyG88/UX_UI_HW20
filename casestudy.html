@@ -56,6 +56,7 @@
     <a class="nav-link" href="#CSFinal">Final Results and Thoughts</a>
   </li>
 </ul>
+	
 <!-- Intro Starts- Bootstrap Fluid Jumbotron -->
 <section class="cs_intro">
 	
@@ -70,6 +71,7 @@
 	
 </div>
 </section>
+	
 <!-- Overview Starts- Bootstrap Grid -->
 <section class="cs_projectoverview" id="CSOverview">
 	
@@ -78,7 +80,7 @@
 	<h1 class="overview_title">Project Overview</h1><br>
       <p class="overview_text">
 		  The user is visiting the Canadian Space Agency website (CSA) because they wish to gain more information about Space and Canada’s contributions to Space Exploration.  The internet is full of a lot of information and a lot of it is false, so a Government website assures the user that the information is up to date and as accurate as possible.  In a World where Space Exploration is primarily dominated by the USA (NASA) and Russia (Roscosmos), the CSA website gives the user information specifically related to Canadian Space Exploration. <br><br>
-		  As a UI designer, I wanted to gain a better understanding of the user's thought process as they navigate their way through the Government Space Agency website in order to identify what areas of the website need improvement. </p>
+		  As a UI designer, I wanted to gain a better understanding of the user's thought process as they navigate their way through the Government Space Agency website in order to identify what areas of the website need improvement. <br><br></p>
     </div>
     <div class="col overview_description_ng">
 		<ul class="description_list_ng">
@@ -93,24 +95,118 @@
   </div>
 	
 </section>
-<!-- Problem Starts- Fluid Jumbotron -->
-<section class="cs_problem">
+	
+<!-- Problem Starts- Bootstrap Grid -->
+<section class="cs_problem" id="CSProblem">
+	<h1 class="csproblem_title">What is the Problem?</h1>
+	<p class="csproblem_text">After conducting usability testing and a heuristics evaluation of the CSA website, it was concluded that:</p>
+	<div class="container">
+  		<div class="row row-cols-2">
+   			<div class="col">Navigation is too confusing</div>
+   			<div class="col">Too many links all over the homepage</div>
+   			<div class="col">Not enough images</div>
+    		<div class="col">Flow of the website is inconsistent</div>
+			<div class="col">Descriptions of the links were inconsistent with information</div>
+			<div class="col">Doesn’t seem like a Space website (too much association with the official Canadian Government website)</div>
+  		</div>
+	</div>
+	
 </section>
-<!-- Reorganization Starts- Fluid Jumbotron -->
-<section class="cs_reorganization">
+	
+<!-- Reorganization Starts- Bootstrap Grid -->
+<section class="cs_reorganization" id="CSReorganization">
+	
+	<div class="container">
+  		<div class="row">
+    		
+			<div class="col">
+     		<h1>Reorganization</h1>
+			<p>
+			Card sorting was used to organize information presented on the main page of the website.  It took A LOT of sorting to narrow down the final information used in the redesign.<br><br>
+			A site map was created to further organize information is define where the information would be sorted.
+			</p>
+    		</div>
+			
+    		<div class="col">
+      		<img src="images/placeholder_image02.png" alt="Card Sorting" width="75%">
+   			</div>
+			
+ 		</div>
+	</div>
+		
 </section>
-<!-- Solution Starts- Fluid Jumbotron -->
-<section class="cs_solution">
+	
+<!-- Solution Starts- Bootstrap Carousel-->
+<section class="cs_solution" id="CSSolution">
+	<h1>Creating the Solution</h1>
+	<p>Low-fi wireframes were created to show layout and navigation</p>
+	
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active ">
+      <img src="images/phone_image02.png" class="d-block w-100" alt="Placeimage">
+    </div>
+    <div class="carousel-item">
+      <img src="images/phone_image02.png" class="d-block w-100" alt="Placeimage">
+    </div>
+    <div class="carousel-item">
+      <img src="images/phone_image02.png" class="d-block w-100" alt="Placeimage">
+    </div>
+  </div>
+  <button class="carousel-control-prev align-middle" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </button>
+  <button class="carousel-control-next align-middle" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </button>
+</div>
+	
 </section>
-<!-- Usability Testing Starts- Fluid Jumbotron -->
-<section class="cs_usabilitytesting">
+	
+<!-- Usability Testing Starts- Bootstrap -->
+<section class="cs_usabilitytesting" id="CSTesting">
+	<h1>Usability Testing and Insights?</h1>
 </section>
-<!-- Visual Design Starts- Fluid Jumbotron -->
-<section class="cs_visualdesign">
+	
+<!-- Visual Design Starts- Bootstrap -->
+<section class="cs_visualdesign" id="CSVisual">
+	<h1>Applying UI Style and Components</h1>
+	
 </section>
-<!-- Final Starts- Fluid Jumbotron -->
-<section class="cs_finalresults">
+	
+<!-- Final Starts -->
+<section class="cs_finalresults" id="CSFinal">
+	<h1 class="finalresults_title">Final Results</h1>
+	<img src="images/macbook_image.png" alt="Final Image" class="CS_finalimage" width="50%">
+	<p class="finalresults_description">After applying the final iterations from the user testing, here is the final result for the desktop.</p>
+	<div class="CS_thoughts">
+	<h1 class="thoughts_title">Thoughts?</h1>
+		<p class="thoughts_text">
+		This project was very difficult and more time consuming then the previous projects.  It brought about a new appreciation for UI designers because there is just so much work and thought process that goes into UI design for a website or mobile.  That being said, I did enjoy the design process.  Being an artist, I always love working with colour and designing new elements.  This project also allowed me to dive more into Figma and discover and utilize more features that Figma offers.<br>
+		I think I had more fun working on this particular project because I love Space.  Space and Space Exploration has always been a passion of mine and it allowed me to actually work on something that I truly love.<br>
+		When you have a passion for your subject, you enjoy your work a lot more.<br><br>
+
+		<b>With Joy, comes Tears</b><br>
+		As stated in the other project, this project allowed me to further work on being objective.  I identify with subjects and topics by relating to them with something in my life and these projects allow me to look at things from a different perspective and become more objective in my analysis of the information gathered.</p>
+</div>
 </section>
+
+
+<!-- Back to the Top Button -->
+	<section class="backtop">
+		<div class="backtotopbutton">
+			<img src="images/backtotop.png" width="8%" onclick="topFunction()" id="myBtn" alt="Go to top"><br>
+		</div>
+	</section>
+<!-- Back to the Top Button -->
+	
 <!-- Content Ends here -->
 
 <!-- Footer Starts here -->
@@ -134,5 +230,8 @@
 <!-- Bootstrap Javascript Link -->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+<!-- Personal Javascript Link -->
+<script src="js/javascript.js"></script>
 	
 </html>
