@@ -147,6 +147,16 @@ section{
 	display: flex;
 	justify-content: center;
 }
+.cs_usabilitytesting {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.CSTesting_Title {
+	display: flex;
+	justify-content: center;
+}
 section button{
 	height: 30px;
 	border-radius: 12px;
