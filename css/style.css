@@ -231,11 +231,31 @@ section button:hover {
 }
 /* This is where my reorganization ends*/
 
+
 /* This is where my solution starts */
+.cs_solution {
+	background-color: #FFFFFF;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.solution_titleng {
+	margin-left: 70px;
+}
+
+.solution_textng {
+	margin-left: 70px;
+}
+
 .solutionimage_ng {
 	height: 75%;
 	display: flex;
 	justify-content: center;
+}
+
+.carouselbutton_ng {
+	margin-top: 250px;
+	background-color: #C8C8C8;
 }
 /* This is where my solution ends */
 
@@ -245,17 +265,68 @@ section button:hover {
 	flex-direction: column;
 	justify-content: center;
 	padding-top: 30px;
+	padding-left: 30px;
+	font-size: 19px;
+	padding-bottom: 30px;
 }
 
 .CSTesting_Title {
 	display: flex;
 	justify-content: center;
 }
+
+.ut_cards_ng {
+	padding-top: 25px;
+}
+
+.card_usability1ng{
+	/*background-color: #F98284;*/
+	height: 200px;
+	text-align: center;
+}
+
+.utcard1_titleng {
+	font-size: 72px;
+}
+
+.utcard1_textng {
+	font-size: 28px;
+}
+
+.utcard3_textng {
+	/*background-color:#F98284;*/
+	padding-top: 12%;
+}
+
+.ut_imageng {
+	float: right;
+}
+
+.ut_pointlistng {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-self: center;
+}
 /* This is where my usability testing ends */
 
-/* This is where my visual design starts */
 
+/* This is where my visual design starts */
+.cs_visualdesign {
+	height: 500px;
+	padding-top: 30px;
+}
+
+.visualdesign_titleng {
+	text-align: center;
+}
+
+.visualcarouselbuttonng {
+	margin-top: 175px;
+	background-color: #C0C0C0;
+}
 /* This is where my visual design ends */
+
 
 /* This is where my final results starts */
 .cs_finalresults {
