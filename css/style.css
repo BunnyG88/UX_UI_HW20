@@ -280,7 +280,7 @@ section button:hover {
 }
 
 .card_usability1ng{
-	/*background-color: #F98284;*/
+	background-color: #C8C8C8;
 	height: 200px;
 	text-align: center;
 }
@@ -293,8 +293,12 @@ section button:hover {
 	font-size: 28px;
 }
 
+.utcard2_textng {
+	background-color:#C8C8C8;
+}
+
 .utcard3_textng {
-	/*background-color:#F98284;*/
+	background-color:#C8C8C8;
 	padding-top: 12%;
 }
 
@@ -313,8 +317,9 @@ section button:hover {
 
 /* This is where my visual design starts */
 .cs_visualdesign {
-	height: 500px;
+	height: 600px;
 	padding-top: 30px;
+	/*background-color: #F98284;*/
 }
 
 .visualdesign_titleng {
@@ -330,11 +335,11 @@ section button:hover {
 
 /* This is where my final results starts */
 .cs_finalresults {
+	padding-top: 30px;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-top: 30px;
 }
 /* This is where my final results ends*/
 
