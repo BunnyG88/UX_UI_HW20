@@ -75,88 +75,14 @@ ul li:hover a {
 
 
 /* This is where my content starts */
-.localnav_ng {
-	background-color: white;
-	opacity: .8;
-}
 section{
 	margin-top:0px;
 	margin-bottom: 0px;
 	background-color: #FFFFFF;
 	width: 100%;
-	color: #0000000;	
+	color: #0000000;
 }
 
-.intro_ng {
-	height: 400px;
-	background-color: #60C0C4;
-}
-.explanationoverview_ng {
-	margin-left: 70px;
-	float: left;
-}
-
-.spaceimage_overviewng {
-	/*width: 50%;*/
-	padding-right: 40px;
-	display: inline-block;
-	float: right;
-}
-.cs_projectoverview {
-	height: 400px;
-	background-color: darkkhaki;
-	padding-bottom: 100px;
-}
-/*
-.overview_title {
-	margin-left: 70px;
-	margin-top: 100px;
-}
-*/
-.overview_text {
-	margin-left: 70px;
-}
-
-.overview_text_ng {
-	height: 400px;
-	display: flex;
-	justify-content: center;
-    align-items: center;
-	flex-direction: column;
-}
-
-.overview_description_ng {
-	height: 400px;
-	display: flex;
-	justify-content: center;
-    align-items: center;
-	flex-direction: column;
-}
-
-.description_list_ng {
-	list-style: none;
-}
-
-.cs_reorganization {
-	background-color:coral;
-	height: 400px;
-}
-
-.solutionimage_ng {
-	height: 75%;
-	display: flex;
-	justify-content: center;
-}
-.cs_usabilitytesting {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-
-.CSTesting_Title {
-	display: flex;
-	justify-content: center;
-}
 section button{
 	height: 30px;
 	border-radius: 12px;
@@ -171,20 +97,187 @@ section button:hover {
 	color: #FFFFFF;
 }
 
+
+/* This is where my case study navigation starts */
+.localnav_ng {
+	background-color: #AAAAAA;
+	opacity: .8;
+}
+/* This is where my case study navigation ends */
+
+
+/* This is where my intro starts */
+.intro_ng {
+	height: 400px;
+	background-color:#AAAAAA;
+}
+.explanationoverview_ng {
+	margin-left: 70px;
+	float: left;
+}
+
+.spaceimage_overviewng {
+	/*width: 50%;*/
+	padding-right: 40px;
+	display: inline-block;
+	float: right;
+}
+/* This is where my intro ends */
+
+
+/* This is where my overview starts */
+.cs_projectoverview {
+	height: 425px;
+	background-color: #FFFFFF;
+	padding-bottom: 100px;
+}
+
+.overview_text_ng {
+	height: 400px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	flex-direction: column;
+}
+
+.overview_text {
+	margin-left: 70px;
+}
+
+.overview_description_ng {
+	height: 400px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	flex-direction: column;
+}
+
+.description_list_ng {
+	list-style: none;
+}
+/* This is where my overview ends */
+
+
+/* This is where my problem starts */
+.cs_problem {
+	background-color: #FFFFFF;
+	height: 625px;
+	text-align: center;
+	padding-top: 30px;
+}
+.problemgrid_ng{
+
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.problembutton_ng {
+	background-color: #C8C8C8;
+	height: 125px;
+	width: 300px;
+	border-radius: 25px;
+	border-width: 0px;
+	color: #000000;
+	float: right;
+	font-size: 20px;
+}
+
+.problembutton_ng:hover {
+	background-color: #C8C8C8;
+	height: 125px;
+	width: 300px;
+	border-radius: 25px;
+	border-width: 0px;
+	color: #000000;
+	cursor: default;
+}
+.problembutton1_ng {
+	background-color: #C8C8C8;
+	height: 125px;
+	width: 300px;
+	border-radius: 25px;
+	border-width: 0px;
+	color: #000000;
+	float: left;
+	font-size: 20px;
+}
+
+.problembutton1_ng:hover {
+	background-color: #C8C8C8;
+	height: 125px;
+	width: 300px;
+	border-radius: 25px;
+	border-width: 0px;
+	color: #000000;
+	cursor: default;
+}
+/* This is where my problem ends */
+
+/* This is where my reorganization starts */
+.cs_reorganization {
+	background-color:#C8C8C8;
+	height: 425px;
+	padding-top: 30px;
+}
+
+.reorganization_info {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+}
+.reorganization_imageng {
+	display: flex;
+	justify-content: center;
+}
+/* This is where my reorganization ends*/
+
+/* This is where my solution starts */
+.solutionimage_ng {
+	height: 75%;
+	display: flex;
+	justify-content: center;
+}
+/* This is where my solution ends */
+
+/* This is where my usability testing starts */
+.cs_usabilitytesting {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 30px;
+}
+
+.CSTesting_Title {
+	display: flex;
+	justify-content: center;
+}
+/* This is where my usability testing ends */
+
+/* This is where my visual design starts */
+
+/* This is where my visual design ends */
+
+/* This is where my final results starts */
 .cs_finalresults {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding-top: 30px;
 }
+/* This is where my final results ends*/
 
+/* This is where my thoughts starts */
 .CS_thoughts {
+	padding-top: 30px;
 	padding-left: 70px;
 	padding-right: 70px;
 	width: 100%;
 	float: left;
 }
+/* This is where my thoughts ends */
 
+/* This is where my back to the top button starts */
 #myBtn {
   opacity: .5;
   display: none; 
@@ -199,6 +292,8 @@ section button:hover {
 #myBtn:hover {
 	opacity: 100%;
 }
+/* This is where my back to the top button ends */
+
 /*Footer Starts Here*/
 footer {
 	width: 100%;
@@ -224,3 +319,4 @@ footer ul{
 footer ul li{
 	display: inline-block;
 }
+/* Footer Ends Here */
